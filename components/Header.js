@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     headText: {
-        color: '#fff',
+        color: '#ecf0f1',
         fontSize: 18,
         fontWeight: 'bold'
     }
