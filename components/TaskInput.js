@@ -14,10 +14,8 @@ const TaskInput = ({ onAddTask, visible, onCancel }) => {
         setText('')
     }
 
-
-
     return (
-        <Modal visible={visible} animationType="slide">
+        <Modal visible={visible} animationType='fade'>
             <View style={styles.inputContainer}>
 
                 <TextInput placeholder="Add Task Here" style={styles.textInput} value={text} onChangeText={handleInput} />
@@ -26,7 +24,7 @@ const TaskInput = ({ onAddTask, visible, onCancel }) => {
                         <Button title="Cancel" color="#e74c3c" onPress={onCancel} />
                     </View>
                     <View style={styles.button}>
-                        <Button title='ADD GOALS' color="#27ae60" onPress={onAddGoal} />
+                        <Button title='ADD' color="#27ae60" onPress={onAddGoal} />
                     </View>
 
                 </View>

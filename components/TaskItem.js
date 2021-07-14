@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         padding: 10,
         borderWidth: 1,
         margin: 10,
-        backgroundColor: '#2c3e50',
+        backgroundColor: '#273432',
     },
     taskStyles: {
         textAlign: 'center',
